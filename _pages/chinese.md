@@ -100,6 +100,7 @@ author_profile: true
 - 有限差分 WENO 方法笔记 [文件](../files/demo1.pdf "有限差分 WENO 方法笔记"){:target="_blank"} 
 - 布朗大学 APMA2560 偏微分方程数值解 II 大作业 [文件](../files/APMA2560/report.pdf "布朗大学 APMA2560 偏微分方程数值解II 大作业"){:target="_blank"} 
 - 理想气体可压 Euler 方程精确黎曼求解器（支持真空） [matlab 代码](https://github.com/YueWu2002/Euler_exact_Riemann "matlab 代码"){:target="_blank"} 
+- 可压 Euler 方程组 HLL/HLLC 数值通量优化实现 [matlab代码](https://github.com/YueWu2002/Euler_HLL_flux "matlab 代码"){:target="_blank"} 
 
 ---
 
