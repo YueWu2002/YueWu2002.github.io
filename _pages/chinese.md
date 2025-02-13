@@ -28,6 +28,7 @@ author_profile: true
 
 # 预印本
 
+- **Yue Wu** and Chi-Wang Shu, Finite difference alternative WENO schemes with Riemann invariant-based local characteristic decompositions for compressible Euler equations, submitted to *Journal of Computational Physics*. [arXiv:2502.08043](https://arxiv.org/abs/2502.08043 "arXiv link"){:target="_blank"}. 
 - **Yue Wu** and Yan Xu, A high-order local discontinuous Galerkin method for the \\(p\\)-Laplace equation, *Beijing Journal of Pure and Applied Mathematics*, to appear. [arXiv:2311.09119](https://arxiv.org/abs/2311.09119 "arXiv link"){:target="_blank"}. 
 
 
@@ -47,6 +48,7 @@ author_profile: true
 
 # 研究经历
 
+- 2024年9月 ~ 2025年2月于布朗大学：可压缩欧拉方程组的高效的A-WENO方法
 - 2021年7月 ~ 2022年5月于中国科大：大学生研究计划 
     - 题目：核聚变中磁流体平衡态演化的数值模拟 
     - 导师：[张梦萍 教授](https://dsxt.ustc.edu.cn/zj_ywjs.asp?zzid=860 "张梦萍教授的个人主页"){:target="_blank"} 
@@ -65,7 +67,8 @@ author_profile: true
 
 # 教学经历
 
-- 2024年秋学期于布朗大学：运筹学：确定性模型 助教 （授课教师：[Amalia V. CULIUC](https://appliedmath.brown.edu/people/amalia-culiuc "Amalia V. CULIUC 的个人主页"){:target="_blank"}）
+- 2025年春学期于布朗大学：统计推断I 助教 （授课教师：Dr. Sarah Brauner）
+- 2024年秋学期于布朗大学：运筹学：确定性模型 助教 （授课教师：[Dr. Amalia V. CULIUC](https://appliedmath.brown.edu/people/amalia-culiuc "Amalia V. CULIUC 的个人主页"){:target="_blank"}）
 - 2022年春学期于中国科大：计算方法B 助教 （授课教师：[陈景润 教授](https://faculty.ustc.edu.cn/chenjingrun/en/index/601834/list/index.htm "陈景润教授的个人主页"){:target="_blank"}）
 
 
