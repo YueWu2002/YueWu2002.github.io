@@ -59,6 +59,10 @@ Please find his CV [here](../files/cv.pdf "Yue Wu's CV"){:target="_blank"}.
 - 07/2024: [Poster](../files/poster/Yue_Wu_ICBS2024.pdf "ICBS2024 poster"){:target="_blank"} session, the 2024 International Congress of Basic Science (ICBS), Beijing, China 
 
 
+# Professional Services
+- Reviewer for *Journal of Computational Physics* since 2025
+
+
 # Skills
 
 - Programming: C/C++, Matlab, Fortran 95/2003, Python, LaTeX 

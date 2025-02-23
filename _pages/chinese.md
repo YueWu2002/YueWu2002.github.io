@@ -77,6 +77,11 @@ author_profile: true
 - 2024年7月：2024国际基础科学大会 [海报](../files/poster/Yue_Wu_ICBS2024.pdf "ICBS2024海报"){:target="_blank"}展出，中国北京 
 
 
+# 专业工作
+
+- 审稿工作：*Journal of Computational Physics* (自2025年)
+
+
 # 专业技能
 
 - 编程语言：C/C++, Matlab, Fortran 95/2003, Python, LaTeX 
