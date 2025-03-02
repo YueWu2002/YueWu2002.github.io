@@ -24,6 +24,8 @@ Please find his CV [here](../files/cv.pdf "Yue Wu's CV"){:target="_blank"}.
 
 - 09/2023 ~ Present: [Division of Applied Mathematics](https://appliedmath.brown.edu/ "APMA, Brown"){:target="_blank"}, [Brown University](https://www.brown.edu/ "Brown"){:target="_blank"} 
     - Ph.D. Candidate in *Applied Mathematics* (Advisor: [Prof. Chi-Wang SHU](https://www.dam.brown.edu/people/shu/ "Prof. Chi-Wang SHU' homepage"){:target="_blank"}) 
+- 09/2023 ~ 05/2025 (expected): [Division of Applied Mathematics](https://appliedmath.brown.edu/ "APMA, Brown"){:target="_blank"}, [Brown University](https://www.brown.edu/ "Brown"){:target="_blank"} 
+    - M.Sc. in *Applied Mathematics* 
 - 09/2019 ~ 06/2023: [School of the Gifted Young](https://en.scgy.ustc.edu.cn "SCGY, USTC"){:target="_blank"}, [University of Science and Technology of China](https://en.ustc.edu.cn "USTC"){:target="_blank"} 
     - B.Sc. in *Information & Computational Science* 
 - 09/2017 ~ 06/2019: Wuxi No. 1 High School 
