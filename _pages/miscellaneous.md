@@ -128,6 +128,12 @@ redirect_from:
         src = "../files/pictures/me-20.jpg" 
         width = "30%"
         title = "01/09/2024: 新疆省喀什地区塔什库尔干县帕米尔高原喀喇昆仑公路 (Karakoram Highway on the Pamir Plateau, Tashkurgan County, Kashgar, Xinjiang Prov., China)">
+    <img style = "
+        border-radius: 0.3125em;
+        box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+        src = "../files/pictures/me-23.jpg" 
+        width = "30%"
+        title = "03/26/2025: 埃及锡瓦撒哈拉沙漠 (Sahara Desert, Siwa, Egypt)">
     <br />
     <div style = "
         color: orange;
@@ -217,7 +223,7 @@ redirect_from:
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
         src = "../files/pictures/me-12.jpg" 
         width = "30%"
-        title = "03/30/2024: 红海 (the Red Sea)">
+        title = "03/30/2024: 埃及赫尔格达红海 (the Red Sea, Hurghada, Egypt)">
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -236,6 +242,12 @@ redirect_from:
         src = "../files/pictures/me-7.jpg" 
         width = "30%"
         title = "01/07/2024: 新疆省克州阿克陶县白沙湖 (Baisha Lake, Akto County, Kizilsu, Xinjiang Prov., China)">
+    <img style = "
+        border-radius: 0.3125em;
+        box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+        src = "../files/pictures/me-22.jpg" 
+        width = "30%"
+        title = "03/24/2025: 埃及马特鲁地中海 (the Mediterranean Sea, Matruh, Egypt)">
     <br />
     <div style = "
         color: orange;
