@@ -31,10 +31,10 @@ Please find his CV [here](../files/cv.pdf "Yue Wu's CV"){:target="_blank"}.
 - 09/2017 ~ 06/2019: Wuxi No. 1 High School 
 
 
-# Preprints
+# Preprints and Publications
 
-- **Yue Wu** and Chi-Wang Shu, Finite difference alternative WENO schemes with Riemann invariant-based local characteristic decompositions for compressible Euler equations, submitted to *Journal of Computational Physics*. [arXiv:2502.08043](https://arxiv.org/abs/2502.08043 "arXiv link"){:target="_blank"}. 
-- **Yue Wu** and Yan Xu, A high-order local discontinuous Galerkin method for the \\(p\\)-Laplace equation, *Beijing Journal of Pure and Applied Mathematics*, to appear. [arXiv:2311.09119](https://arxiv.org/abs/2311.09119 "arXiv link"){:target="_blank"}. 
+- **Y. Wu** and C.-W. Shu, *Finite difference alternative WENO schemes with Riemann invariant-based local characteristic decompositions for compressible Euler equations*, submitted to J. Comput. Phys. [arXiv:2502.08043](https://arxiv.org/abs/2502.08043 "arXiv link"){:target="_blank"}. 
+- **Y. Wu** and Y. Xu, A high-order local discontinuous Galerkin method for the \\(p\\)-Laplace equation, *Beijing Journal of Pure and Applied Mathematics*, 2(1) (2025) 373–422. doi:[10.4310/BPAM.250415002006](https://intlpress.com/JDetail/1911817957150072834 "eprint link"){:target="_blank"}. 
 
 
 # Honors and Awards
