@@ -86,9 +86,9 @@ author_profile: true
 
 # 专业技能
 
-- 编程语言：C/C++, Matlab, Fortran 95/2003, Python, LaTeX 
-- 并行计算：MPI, OpenMP, Coarray Fortran 
-- 工作语言：普通话，英语 
+- 编程：MATLAB, C++, Fortran, Python, MPI, OpenMP
+- 软件：LaTeX, Mathematica, FEniCS, MFEM, VTune
+- 语言：普通话，英语 
 
 
 # 课外活动

@@ -68,9 +68,9 @@ Please find his CV [here](../files/cv.pdf "Yue Wu's CV"){:target="_blank"}.
 
 # Skills
 
-- Programming: C/C++, Matlab, Fortran 95/2003, Python, LaTeX 
-- Parallel computing: MPI, OpenMP, Coarray Fortran 
-- Languages: (Mandarin) Chinese, English 
+- Programming: MATLAB, C++, Fortran, Python, MPI, OpenMP
+- Software: LaTeX, Mathematica, FEniCS, MFEM, VTune
+- Language: Mandarin Chinese, English
 
 
 <!-- Explanation for abbreviations -->
