@@ -21,17 +21,17 @@ author_profile: true
 
 - 2023年9月 ~ 现今：[布朗大学](https://www.brown.edu/ "布朗大学官网"){:target="_blank"}，[应用数学系](https://appliedmath.brown.edu/ "布朗大学应用数学系主页"){:target="_blank"} 
     - 博士研究生 (导师：[舒其望 教授](https://www.dam.brown.edu/people/shu/ "舒其望教授的个人主页"){:target="_blank"}) 
-- 2023年9月 ~ 2025年5月（预计）：[布朗大学](https://www.brown.edu/ "布朗大学官网"){:target="_blank"}，[应用数学系](https://appliedmath.brown.edu/ "布朗大学应用数学系主页"){:target="_blank"} 
+- 2023年9月 ~ 2025年5月：[布朗大学](https://www.brown.edu/ "布朗大学官网"){:target="_blank"}，[应用数学系](https://appliedmath.brown.edu/ "布朗大学应用数学系主页"){:target="_blank"} 
     - 应用数学 理学硕士 
 - 2019年9月 ~ 2023年6月：[中国科学技术大学](https://www.ustc.edu.cn/ "中国科学技术大学"){:target="_blank"}，[少年班学院](https://sgy.ustc.edu.cn/ "中国科学技术大学少年班学院"){:target="_blank"} 
     - 信息与计算科学 理学学士 
 - 2017年9月 ~ 2019年6月：无锡市第一中学 
 
 
-# 预印本
+# 预印本和发表文章
 
-- **Yue Wu** and Chi-Wang Shu, Finite difference alternative WENO schemes with Riemann invariant-based local characteristic decompositions for compressible Euler equations, submitted to *Journal of Computational Physics*. [arXiv:2502.08043](https://arxiv.org/abs/2502.08043 "arXiv link"){:target="_blank"}. 
-- **Yue Wu** and Yan Xu, A high-order local discontinuous Galerkin method for the \\(p\\)-Laplace equation, *Beijing Journal of Pure and Applied Mathematics*, to appear. [arXiv:2311.09119](https://arxiv.org/abs/2311.09119 "arXiv link"){:target="_blank"}. 
+- **Y. Wu** and C.-W. Shu, *Finite difference alternative WENO schemes with Riemann invariant-based local characteristic decompositions for compressible Euler equations*, submitted to J. Comput. Phys. [arXiv:2502.08043](https://arxiv.org/abs/2502.08043 "arXiv link"){:target="_blank"}. 
+- **Y. Wu** and Y. Xu, *A high-order local discontinuous Galerkin method for the p-Laplace equation*, Beijing J. of Pure and Appl. Math. **2** (2025), no. 1, 373–422, DOI [10.4310/BPAM.250415002006](https://intlpress.com/JDetail/1911817957150072834 "eprint link"){:target="_blank"}. 
 
 
 # 获奖情况
@@ -86,9 +86,9 @@ author_profile: true
 
 # 专业技能
 
-- 编程语言：C/C++, Matlab, Fortran 95/2003, Python, LaTeX 
-- 并行计算：MPI, OpenMP, Coarray Fortran 
-- 工作语言：普通话，英语 
+- 编程：MATLAB, C++, Fortran, Python, MPI, OpenMP
+- 软件：LaTeX, Mathematica, FEniCS, MFEM, VTune
+- 语言：普通话，英语 
 
 
 # 课外活动

@@ -24,17 +24,17 @@ Please find his CV [here](../files/cv.pdf "Yue Wu's CV"){:target="_blank"}.
 
 - 09/2023 ~ Present: [Division of Applied Mathematics](https://appliedmath.brown.edu/ "APMA, Brown"){:target="_blank"}, [Brown University](https://www.brown.edu/ "Brown"){:target="_blank"} 
     - Ph.D. Candidate in *Applied Mathematics* (Advisor: [Prof. Chi-Wang SHU](https://www.dam.brown.edu/people/shu/ "Prof. Chi-Wang SHU' homepage"){:target="_blank"}) 
-- 09/2023 ~ 05/2025 (expected): [Division of Applied Mathematics](https://appliedmath.brown.edu/ "APMA, Brown"){:target="_blank"}, [Brown University](https://www.brown.edu/ "Brown"){:target="_blank"} 
+- 09/2023 ~ 05/2025: [Division of Applied Mathematics](https://appliedmath.brown.edu/ "APMA, Brown"){:target="_blank"}, [Brown University](https://www.brown.edu/ "Brown"){:target="_blank"} 
     - M.Sc. in *Applied Mathematics* 
 - 09/2019 ~ 06/2023: [School of the Gifted Young](https://en.scgy.ustc.edu.cn "SCGY, USTC"){:target="_blank"}, [University of Science and Technology of China](https://en.ustc.edu.cn "USTC"){:target="_blank"} 
     - B.Sc. in *Information & Computational Science* 
 - 09/2017 ~ 06/2019: Wuxi No. 1 High School 
 
 
-# Preprints
+# Preprints and Publications
 
-- **Yue Wu** and Chi-Wang Shu, Finite difference alternative WENO schemes with Riemann invariant-based local characteristic decompositions for compressible Euler equations, submitted to *Journal of Computational Physics*. [arXiv:2502.08043](https://arxiv.org/abs/2502.08043 "arXiv link"){:target="_blank"}. 
-- **Yue Wu** and Yan Xu, A high-order local discontinuous Galerkin method for the \\(p\\)-Laplace equation, *Beijing Journal of Pure and Applied Mathematics*, to appear. [arXiv:2311.09119](https://arxiv.org/abs/2311.09119 "arXiv link"){:target="_blank"}. 
+- **Y. Wu** and C.-W. Shu, *Finite difference alternative WENO schemes with Riemann invariant-based local characteristic decompositions for compressible Euler equations*, submitted to J. Comput. Phys. [arXiv:2502.08043](https://arxiv.org/abs/2502.08043 "arXiv link"){:target="_blank"}. 
+- **Y. Wu** and Y. Xu, *A high-order local discontinuous Galerkin method for the p-Laplace equation*, Beijing J. of Pure and Appl. Math. **2** (2025), no. 1, 373–422, DOI [10.4310/BPAM.250415002006](https://intlpress.com/JDetail/1911817957150072834 "eprint link"){:target="_blank"}. 
 
 
 # Honors and Awards
@@ -68,9 +68,9 @@ Please find his CV [here](../files/cv.pdf "Yue Wu's CV"){:target="_blank"}.
 
 # Skills
 
-- Programming: C/C++, Matlab, Fortran 95/2003, Python, LaTeX 
-- Parallel computing: MPI, OpenMP, Coarray Fortran 
-- Languages: (Mandarin) Chinese, English 
+- Programming: MATLAB, C++, Fortran, Python, MPI, OpenMP
+- Software: LaTeX, Mathematica, FEniCS, MFEM, VTune
+- Language: Mandarin Chinese, English
 
 
 <!-- Explanation for abbreviations -->
