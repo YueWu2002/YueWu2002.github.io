@@ -69,7 +69,7 @@ Please find his CV [here](../files/cv.pdf "Yue Wu's CV"){:target="_blank"}.
 # Skills
 
 - Programming: MATLAB, C++, Fortran, Python, MPI, OpenMP
-- Software: LaTeX, Mathematica, FEniCS, MFEM, VTune
+- Software: LaTeX, Mathematica, FEniCS, MFEM
 - Language: Mandarin Chinese, English
 
 
