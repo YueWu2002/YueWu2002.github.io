@@ -52,7 +52,7 @@ Please find his CV [here](../files/cv.pdf "Yue Wu's CV"){:target="_blank"}.
 
 # Teaching Experiences
 
-- Spring 202t at Brown: Teaching Assistant, Statistical Inference I (Instructor: Dr. Sarah BRAUNER). 
+- Spring 2025 at Brown: Teaching Assistant, Statistical Inference I (Instructor: Dr. Sarah BRAUNER). 
 - Fall 2024 at Brown: Teaching Assistant, Operations Research: Deterministic Models (Instructor: Dr. Amalia V. CULIUC). 
 - Spring 2022 at USTC: Teaching Assistant, Computational Methods B (Instructor: [Prof. Jingrun CHEN](https://faculty.ustc.edu.cn/chenjingrun/en/index/601834/list/index.htm "Prof. Jingrun CHEN's homepage"){:target="_blank"}). 
 
