@@ -63,7 +63,7 @@ Please find his CV [here](../files/cv.pdf "Yue Wu's CV"){:target="_blank"}.
 
 
 # Professional Services
-- Reviewer for *Journal of Computational Physics* since 2025
+- Reviewer for *Journal of Computational Physics* and *Journal of Scientific Computing* since 2025
 
 
 # Skills

@@ -81,7 +81,7 @@ author_profile: true
 
 # 专业工作
 
-- 审稿工作：*Journal of Computational Physics* (自2025年)
+- 审稿工作：*Journal of Computational Physics* 和 *Journal of Scientific Computing* (自2025年)
 
 
 # 专业技能
