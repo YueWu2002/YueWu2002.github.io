@@ -15,8 +15,8 @@ main:
   #- title: "Teaching"
   #  url: /teaching/
 
-  - title: "Sports"
-    url: /sports/
+  #- title: "Sports"
+  #  url: /sports/
 
   - title: "Misc"
     url: /miscellaneous/
