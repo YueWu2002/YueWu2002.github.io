@@ -87,7 +87,7 @@ author_profile: true
 # 专业技能
 
 - 编程：MATLAB, C++, Fortran, Python, MPI, OpenMP
-- 软件：LaTeX, Mathematica, FEniCS, MFEM
+- 软件：LaTeX, Mathematica, NGSolve, FEniCS, MFEM
 - 语言：普通话，英语 
 
 
