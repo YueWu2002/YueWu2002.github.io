@@ -30,8 +30,8 @@ author_profile: true
 
 # 预印本和发表文章
 
-- **Y. Wu** and C.-W. Shu, *Finite difference alternative WENO schemes with Riemann invariant-based local characteristic decompositions for compressible Euler equations*, J. Comput. Phys., to appear. doi: [10.1016/j.jcp.2025.114104](https://www.sciencedirect.com/science/article/pii/S0021999125003870 "eprint link"){:target="_blank"}. 
-- **Y. Wu** and Y. Xu, *A high-order local discontinuous Galerkin method for the p-Laplace equation*, Beijing J. of Pure and Appl. Math. 2 (1) (2025) 373–422. doi: [10.4310/BPAM.250415002006](https://intlpress.com/JDetail/1911817957150072834 "eprint link"){:target="_blank"}. 
+- **Y. Wu** and C.-W. Shu, *Finite difference alternative WENO schemes with Riemann invariant-based local characteristic decompositions for compressible Euler equations*, J. Comput. Phys., 537 (2025), 114104. doi: [10.1016/j.jcp.2025.114104](https://www.sciencedirect.com/science/article/pii/S0021999125003870 "eprint link"){:target="_blank"}. 
+- **Y. Wu** and Y. Xu, *A high-order local discontinuous Galerkin method for the p-Laplace equation*, Beijing J. of Pure and Appl. Math., 2:1 (2025), 373–422. doi: [10.4310/BPAM.250415002006](https://intlpress.com/JDetail/1911817957150072834 "eprint link"){:target="_blank"}. 
 
 
 # 获奖情况
