@@ -1,302 +1,306 @@
-<title>Yue Wu's homepage</title>
+<!DOCTYPE html>
+<html>
 
+<head>
+    <title>Yue Wu's homepage</title>
+    <meta charset="utf-8">
+    <style>
+        table,
+        th,
+        td {
+            border: none;
+            padding: none;
+            border-collapse: collapse
+        }
+    </style>
+</head>
 
-<meta charset="utf-8">
-
-<div style="display: flex; gap: 24px;">
-    <div>
-        <img src="files/profile.jpg" alt="Yue Wu's profile picture" width="200px">
+<body>
+    <div title="bibliography">
+        <table>
+            <tr>
+                <td style="vertical-align: top">
+                    <img src="files/profile.jpg" alt="Yue Wu's profile picture" width="200px">
+                </td>
+                <td style="width: 1em"></td>
+                <td style="vertical-align: top">
+                    <h1>Yue Wu (吴越)</h1>
+                    Ph.D. Candidate<br>
+                    E-mail: Yue_Wu3 [at] Brown [dot] edu
+                    <br><br>
+                    Yue Wu is a Ph.D. candidate in the Division of Applied Mathematics at Brown University under the supervision of <a href="https://www.dam.brown.edu/people/shu" title="Prof. Chi-Wang Shu's homepage">Prof. Chi-Wang Shu</a>. His main research interests include numerical analysis and scientific computing. He grew up in Wuxi, a beautiful city in eastern China. Outside academia, he is an aviation enthusiast and enjoys road cycling, hiking, and road trips.
+                    <br><br>
+                    Please find his CV <a href="files/cv.pdf" title="Yue Wu's CV">here</a>.
+                </td>
+            </tr>
+        </table>
     </div>
-    <div>
-        <h1>Yue Wu (吴越)</h1>
-        <p>
-            Ph.D. Candidate<br>
-            E-mail: Yue_Wu3 [at] Brown [dot] edu
-        </p>
-        <p>
-            Yue Wu is a Ph.D. candidate in the Division of Applied Mathematics at Brown University under the supervision of <a href="https://www.dam.brown.edu/people/shu" title="Prof. Chi-Wang Shu's homepage">Prof. Chi-Wang Shu</a>. His main research interests include numerical analysis and scientific computing. He grew up in Wuxi, a beautiful city in eastern China. Outside academia, he is an aviation enthusiast and enjoys road cycling, hiking, and road trips.
-        </p>
-        <p>
-            Please find his CV <a href="files/cv.pdf" title="Yue Wu's CV">here</a>.
-        </p>
+
+    <hr>
+
+    <div title="CV">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                09/2023 ~ Present:
+                Ph.D. Candidate (Advisor: <a href="https://www.dam.brown.edu/people/shu" title="Prof. Chi-Wang Shu's homepage">Prof. Chi-Wang Shu</a>),
+                <a href="https://appliedmath.brown.edu" title="APMA, Brown">Division of Applied Mathematics</a>,
+                <a href="https://www.brown.edu" title="Brown">Brown University</a>
+            </li>
+            <li>
+                09/2023 ~ 05/2025:
+                M.Sc. in Applied Mathematics, <a href="https://appliedmath.brown.edu" title="APMA, Brown">Division of Applied Mathematics</a>,
+                <a href="https://www.brown.edu" title="Brown">Brown University</a>
+            </li>
+            <li>
+                09/2019 ~ 06/2023:
+                B.Sc. in Information & Computational Science,
+                <a href="https://en.scgy.ustc.edu.cn" title="SCGY, USTC">School of the Gifted Young</a>,
+                <a href="https://en.ustc.edu.cn" title="USTC">University of Science and Technology of China</a>
+            </li>
+            <li>
+                09/2017 ~ 06/2019:
+                Wuxi No. 1 High School
+            </li>
+        </ul>
+
+        <h2>Research Interests</h2>
+        <ul>
+            <li>
+                High-order numerical methods for partial differential equations
+                <ul>
+                    <li>
+                        Discontinuous Galerkin finite element methods
+                    </li>
+                    <li>
+                        Finite difference weighted essentially non-oscillatory (WENO) methods
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Scientific computing
+                <ul>
+                    <li>
+                        Parallel PDE solver development
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Publications and Preprints</h2>
+        <ol>
+            <li>
+                <b>Y. Wu</b> and Y. Xu,
+                <a href="https://intlpress.com/JDetail/1911817957150072834" title="eprint link">A high-order local discontinuous Galerkin method for the p-Laplace equation</a>,
+                Beijing J. of Pure and Appl. Math. 2:1 (2025), pp. 373–422.
+                doi: <a href="https://doi.org/10.4310/BPAM.250415002006" title="DOI link">10.4310/BPAM.250415002006</a>.
+            </li>
+            <li>
+                <b>Y. Wu</b> and C.-W. Shu,
+                <a href="https://www.sciencedirect.com/science/article/pii/S0021999125003870" title="eprint link">Finite difference alternative WENO schemes with Riemann invariant-based local characteristic decompositions for compressible Euler equations</a>,
+                J. Comput. Phys. 537 (2025), Paper No. 114104, 24 pp.
+                doi: <a href="https://doi.org/10.1016/j.jcp.2025.114104" title="DOI link">10.1016/j.jcp.2025.114104</a>.
+                <a href="https://mathscinet.ams.org/mathscinet/article?mr=4912873" title="MathSciNet link">MR4912873</a>.
+            </li>
+        </ol>
+
+        <h2>Research Experiences</h2>
+        <ul>
+            <li>
+                <strong>Efficient alternative WENO (A-WENO) methods for compressible Euler equations</strong> <br>
+                Brown University; Supervisor: <a href="https://www.dam.brown.edu/people/shu" title="Prof. Chi-Wang Shu's homepage">Prof. Chi-Wang Shu</a>; 09/2024 – 02/2025
+                <ul>
+                    <li>
+                        Investigated the effect of different transform variables in the local characteristic decomposition on the performance of A-WENO methods.
+                    </li>
+                    <li>
+                        Developed an A-WENO code using Riemann invariants as transform variables to save cost.
+                    </li>
+                </ul>
+            </li>
+            <br>
+            <li>
+                <strong>Discontinuous Galerkin Methods for the p-Laplace Equation</strong> <br>
+                Bachelor's Thesis at USTC; Supervisor: <a href="https://faculty.ustc.edu.cn/yxu" title="Prof. Yan Xu's homepage">Yan Xu</a>; 12/2022 – 06/2023
+                <ul>
+                    <li>
+                        Proved an a priori error estimate for an LDG scheme for the p-Laplace equation.
+                    </li>
+                    <li>
+                        Developed and implemented an efficient preconditioned gradient descent method.
+                    </li>
+                </ul>
+                <details>
+                    <summary>Abstract</summary>
+                    We study the high-order local discontinuous Galerkin (LDG) method for the p-Laplace equation. We reformulate our spatial discretization as an equivalent convex minimization problem and use a preconditioned gradient descent method as the nonlinear solver. For the first time, a weighted preconditioner that provides hk-independent convergence is applied in the LDG setting. For polynomial order k ≥ 1, we rigorously establish the solvability of our scheme and provide a priori error estimates in a mesh-dependent energy norm. Our error estimates are under a different and non-equivalent distance from existing LDG results. For arbitrarily high-order polynomials under the assumption that the exact solution has enough regularity, the error estimates demonstrate the potential for high-order accuracy. Our numerical results exhibit the desired convergence speed facilitated by the preconditioner, and we observe best convergence rates in gradient variables in alignment with linear LDG, and optimal rates in the primal variable when 1 < p ≤ 2. </details>
+            </li>
+            <br>
+            <li>
+                <strong>Positivity-Preserving Conservative Low-Rank Methods for Vlasov Dynamics</strong> <br>
+                Purdue University (remote); Supervisor: <a href="https://www.math.purdue.edu/~zhan1966" title="Prof. Xiangxiong Zhang's homepage">Prof. Xiangxiong Zhang</a>; 06/2022 – 08/2022 <br>
+                <ul>
+                    <li>
+                        Developed a low-rank correction algorithm with positivity preservation and orthogonality constraints via optimization, which can post-process data from a dynamic low-rank solver.
+                    </li>
+                </ul>
+                <details>
+                    <summary>Abstract</summary>
+                    The high-dimensionality of Vlasov dynamics makes it expensive to solve by traditional numerical methods. Utilizing the low-rank structure of the solution, people have developed cost-efficient methods using low-rank matrix/tensor approximation. However, very often a low-rank approximation of a given non-negative matrix (which corresponds to the solution) can have negative elements which results in non-physical solutions. In this research, our goal is to develop a cost-efficient positivity-preserving conservative low-rank method to solve this problem. We designed two algorithms, one is the tangent-space accelerated alternating projection algorithm, and the other is the nuclear norm optimization, both with macroscopic quantities conservation.
+                </details>
+            </li>
+            <br>
+            <li>
+                <strong>Numerical Simulation of Plasma Equilibrium Evolution in Nuclear Fusion</strong> <br>
+                USTC undergraduate research project; Supervisor: <a href="https://math.ustc.edu.cn/2024/1205/c37903a663715/page.htm" title="Prof. Mengping Zhang's homepage">Prof. Mengping Zhang</a>; 06/2021 – 05/2022 <br>
+                <ul>
+                    <li>
+                        Developed a parallel hybrid finite difference-pseudo spectral code for resistive MHD in toroidal geometry, and performed long-time simulation of resistive tearing mode instability in tokamaks.
+                    </li>
+                    <li>
+                        Checked the results with researchers from the Institute of Plasma Physics, CAS, and against those from existing open-source codes.
+                    </li>
+                    <li>
+                        Research report (in Chinese) preview: <a href="files/undergraduate-research-program/main.pdf" title="research report (in Chinese)">here</a>; Defense slides (in Chinese) preview: <a href="files/undergraduate-research-program/PPT.pdf" title="defense slides (in Chinese)">here</a>.
+                    </li>
+                </ul>
+                <details>
+                    <summary>Abstract</summary>
+                    The controlled nuclear fusion is one of the most prospective solution to the energy crisis and environmental problems. The tokamak has been widely investigated as the most feasible magnetically confined fusion device. Tearing mode instabilities have great influence on the fusion reaction thus worth studying. In this research, in order to simulate the evolution process of tokamak plasma equilibrium numerically, we review different formulations of the MHD equations, select a suitable type of non-conservative resistive MHD that is based on perturbation variables, and develop a parallel program using hybrid finite difference-Fourier pseudo spectral method in cylindrical coordinates. Using our program, we simulate the (m,n)=(2,1) resistive tearing mode instability and compare the results against those obtained from the CLT and M3D-C1 code. The results show that our program exhibits satisfactory performance in conserving numerical divergence of the magnetic field, fitting the theoretical relation between logarithmic growth rate of kinetic energy and resistivity, revealing the mode structure independent of initial perturbation at the linear stage and reaching the final saturation stage.
+                </details>
+            </li>
+        </ul>
+
+        <h2>Teaching Experiences</h2>
+        <ul>
+            <li>
+                Fall 2025 at Brown: Teaching Assistant, APMA 0160 - Introduction to Scientific Computing (Instructor: Dr. Rami Masri).
+            </li>
+            <li>
+                Spring 2025 at Brown: Teaching Assistant, APMA 1650 - Statistical Inference I (Instructor: Prof. Sarah Brauner).
+            </li>
+            <li>
+                Fall 2024 at Brown: Teaching Assistant, APMA 1210 - Operations Research: Deterministic Models (Instructor: Dr. Amalia V. Culiuc)
+            </li>
+            <li>
+                Spring 2022 at USTC: Teaching Assistant, Computational Methods B (Instructor: <a href="https://faculty.ustc.edu.cn/chenjingrun/en/index/601834/list/index.htm" title="Prof. Jingrun Chen's homepage">Prof. Jingrun Chen</a>)
+            </li>
+        </ul>
+
+        <h2>Professional Services</h2>
+        <ul>
+            <li>
+                Reviewer for Journal of Computational Physics and Journal of Scientific Computing since 2025
+            </li>
+        </ul>
+
+        <h2>Professional Skills</h2>
+        <ul>
+            <li>
+                Programming: MATLAB, C++, Fortran, Python, MPI, OpenMP
+            </li>
+            <li>
+                Software: LaTeX, Mathematica, <a href="https://ngsolve.org/">NGSolve</a>, <a href="https://fenicsproject.org/">FEniCS</a>, <a href="https://mfem.org/">MFEM</a>
+            </li>
+            <li>
+                Language: Mandarin Chinese, English
+            </li>
+        </ul>
+
+        <h2>Honors and Awards</h2>
+        <ul>
+            <li>06/2024: New Lotus Award, SGY Rose Scholarship 2023</li>
+            <li>06/2023: USTC Outstanding Undergraduate Award</li>
+            <li>06/2023: "Chia-Chiao Lin" Gold Medal in Applied and Computational Math track (Top 1 in China) & Team Silver Medal & Excellence Prize in Analysis and PDEs track, the 14<sup>th</sup> S.-T. Yau College Student Math Contest</li>
+            <li>10/2022: Gold Prize, USTC Outstanding Student Scholarship</li>
+            <li>08/2022: Excellence Prize in Analysis and PDEs track, the 13<sup>th</sup> S.-T. Yau College Student Math Contest</li>
+            <li>12/2021: China National Scholarship</li>
+            <li>12/2021: Second Prize, the 13<sup>th</sup> Chinese Math Competitions</li>
+            <li>12/2020: China National Scholarship</li>
+            <li>09/2019: Third Prize, USTC Freshman Scholarship</li>
+        </ul>
+
+        <h2>Posters and Presentations</h2>
+        <ul>
+            <li>
+                07/2024: <a href="files/poster/Yue_Wu_ICBS2024.pdf" title="ICBS2024 poster">Poster</a> session, the 2024 International Congress of Basic Science (ICBS), Beijing, China
+            </li>
+        </ul>
     </div>
-</div>
 
+    <hr>
 
-<hr>
-
-
-<div title="CV">
-    
-<h2>Education</h2>
-
-<ul>
-    <li>
-        09/2023 ~ Present: Ph.D. Candidate (Advisor: <a href="https://www.dam.brown.edu/people/shu" title="Prof. Chi-Wang Shu's homepage">Prof. Chi-Wang Shu</a>), 
-        <a href="https://appliedmath.brown.edu" title="APMA, Brown">Division of Applied Mathematics</a>, <a href="https://www.brown.edu" title="Brown">Brown University</a>
-    </li>
-    <li>
-        09/2023 ~ 05/2025: M.Sc. in Applied Mathematics, <a href="https://appliedmath.brown.edu" title="APMA, Brown">Division of Applied Mathematics</a>, <a href="https://www.brown.edu" title="Brown">Brown University</a>
-    </li>
-    <li>
-        09/2019 ~ 06/2023: B.Sc. in Information & Computational Science, <a href="https://en.scgy.ustc.edu.cn" title="SCGY, USTC">School of the Gifted Young</a>, <a href="https://en.ustc.edu.cn" title="USTC">University of Science and Technology of China</a>
-    </li>
-    <li>
-        09/2017 ~ 06/2019: Wuxi No. 1 High School
-    </li>
-</ul>
-
-
-<h2>Research Interests</h2>
-
-<ul>
-    <li>
-        High-order numerical methods for partial differential equations
-        <ul>
-            <li>
-                Discontinuous Galerkin finite element methods
-            </li>
-            <li>
-                Finite difference/volume weighted essentially non-oscillatory (WENO) methods
-            </li>
-        </ul>
-    </li>
-    <li>
-        Scientific computing
-        <ul>
-            <li>
-                parallel PDE solver development
-            </li>
-        </ul>
-    </li>
-</ul>
-
-
-<h2>Publications and Preprints</h2>
-
-<ol>
-    <li>
-        <b>Y. Wu</b> and Y. Xu, <a href="https://intlpress.com/JDetail/1911817957150072834" title="eprint link">A high-order local discontinuous Galerkin method for the p-Laplace equation</a>, Beijing J. of Pure and Appl. Math. 2:1 (2025), pp. 373–422. doi: <a href="https://doi.org/10.4310/BPAM.250415002006" title="DOI link">10.4310/BPAM.250415002006</a>.
-    </li>
-    <li>
-        <b>Y. Wu</b> and C.-W. Shu, <a href="https://www.sciencedirect.com/science/article/pii/S0021999125003870" title="eprint link">Finite difference alternative WENO schemes with Riemann invariant-based local characteristic decompositions for compressible Euler equations</a>, J. Comput. Phys. 537 (2025), Paper No. 114104, 24 pp. doi: <a href="https://doi.org/10.1016/j.jcp.2025.114104" title="DOI link">10.1016/j.jcp.2025.114104</a>. <a href="https://mathscinet.ams.org/mathscinet/article?mr=4912873" title="MathSciNet link">MR4912873</a>.
-    </li>
-</ol>
-
-
-<h2>Research Experiences</h2>
-
-<ul>
-    <li>
-        <strong>Efficient alternative WENO (A-WENO) methods for compressible Euler equations</strong> <br>
-        Brown University; Supervisor: <a href="https://www.dam.brown.edu/people/shu" title="Prof. Chi-Wang Shu's homepage">Prof. Chi-Wang Shu</a>; 09/2024 – 02/2025
-        <ul>
-            <li>
-                Investigated the effect of different transform variables in the local characteristic decomposition on the performance of A-WENO methods.
-            </li>
-            <li>
-                Developed an A-WENO code using Riemann invariants as transform variables to save cost.
-            </li>
-        </ul>
-    </li>
-    <br>
-    <li>
-        <strong>Discontinuous Galerkin Methods for the p-Laplace Equation</strong> <br>
-        Bachelor's Thesis at USTC; Supervisor: <a href="https://faculty.ustc.edu.cn/yxu" title="Prof. Yan Xu's homepage">Yan Xu</a>; 12/2022 – 06/2023 
-        <ul>
-            <li>
-                Proved an a priori error estimate for an LDG scheme for the p-Laplace equation.
-            </li>
-            <li>
-                Developed and implemented an efficient preconditioned gradient descent method.
-            </li>
-        </ul>
-        <details>
-            <summary>Abstract</summary>
-            We study the high-order local discontinuous Galerkin (LDG) method for the p-Laplace equation. We reformulate our spatial discretization as an equivalent convex minimization problem and use a preconditioned gradient descent method as the nonlinear solver. For the first time, a weighted preconditioner that provides hk-independent convergence is applied in the LDG setting. For polynomial order k ≥ 1, we rigorously establish the solvability of our scheme and provide a priori error estimates in a mesh-dependent energy norm. Our error estimates are under a different and non-equivalent distance from existing LDG results. For arbitrarily high-order polynomials under the assumption that the exact solution has enough regularity, the error estimates demonstrate the potential for high-order accuracy. Our numerical results exhibit the desired convergence speed facilitated by the preconditioner, and we observe best convergence rates in gradient variables in alignment with linear LDG, and optimal rates in the primal variable when 1 < p ≤ 2. 
-        </details>
-    </li>
-    <br>
-    <li>
-        <strong>Positivity-Preserving Conservative Low-Rank Methods for Vlasov Dynamics</strong> <br>
-        Purdue University (remote); Supervisor: <a href="https://www.math.purdue.edu/~zhan1966" title="Prof. Xiangxiong Zhang's homepage">Prof. Xiangxiong Zhang</a>; 06/2022 – 08/2022 <br>
-        <ul>
-            <li>
-                Developed a low-rank correction algorithm with positivity preservation and orthogonality constraints via optimization, which can post-process data from a dynamic low-rank solver.
-            </li>
-        </ul>
-        <details>
-            <summary>Abstract</summary>
-            The high-dimensionality of Vlasov dynamics makes it expensive to solve by traditional numerical methods. Utilizing the low-rank structure of the solution, people have developed cost-efficient methods using low-rank matrix/tensor approximation. However, very often a low-rank approximation of a given non-negative matrix (which corresponds to the solution) can have negative elements which results in non-physical solutions. In this research, our goal is to develop a cost-efficient positivity-preserving conservative low-rank method to solve this problem. We designed two algorithms, one is the tangent-space accelerated alternating projection algorithm, and the other is the nuclear norm optimization, both with macroscopic quantities conservation. 
-        </details>
-    </li>
-    <br>
-    <li>
-        <strong>Numerical Simulation of Plasma Equilibrium Evolution in Nuclear Fusion</strong> <br>
-        USTC undergraduate research project; Supervisor: <a href="https://math.ustc.edu.cn/2024/1205/c37903a663715/page.htm" title="Prof. Mengping Zhang's homepage">Prof. Mengping Zhang</a>; 06/2021 – 05/2022 <br>
-        <ul>
-            <li>
-                Developed a parallel hybrid finite difference-pseudo spectral code for resistive MHD in toroidal geometry, and performed long-time simulation of resistive tearing mode instability in tokamaks.
-            </li>
-            <li>
-                Checked the results with researchers from the Institute of Plasma Physics, CAS, and against those from existing open-source codes.
-            </li>
-            <li>
-                Research report (in Chinese) preview: <a href="files/undergraduate-research-program/main.pdf" title="research report (in Chinese)">here</a>; Defense slides (in Chinese) preview: <a href="files/undergraduate-research-program/PPT.pdf" title="defense slides (in Chinese)">here</a>. 
-            </li>
-        </ul>
-        <details>
-            <summary>Abstract</summary>
-            The controlled nuclear fusion is one of the most prospective solution to the energy crisis and environmental problems. The tokamak has been widely investigated as the most feasible magnetically confined fusion device. Tearing mode instabilities have great influence on the fusion reaction thus worth studying. In this research, in order to simulate the evolution process of tokamak plasma equilibrium numerically, we review different formulations of the MHD equations, select a suitable type of non-conservative resistive MHD that is based on perturbation variables, and develop a parallel program using hybrid finite difference-Fourier pseudo spectral method in cylindrical coordinates. Using our program, we simulate the (m,n)=(2,1) resistive tearing mode instability and compare the results against those obtained from the CLT and M3D-C1 code. The results show that our program exhibits satisfactory performance in conserving numerical divergence of the magnetic field, fitting the theoretical relation between logarithmic growth rate of kinetic energy and resistivity, revealing the mode structure independent of initial perturbation at the linear stage and reaching the final saturation stage.
-        </details>
-    </li>
-</ul>
-
-
-<h2>Teaching Experiences</h2>
-
-<ul>
-    <li>
-        Fall 2025 at Brown: Teaching Assistant, APMA 0160 - Introduction to Scientific Computing (Instructor: Dr. Rami Masri).
-    </li>
-    <li>
-        Spring 2025 at Brown: Teaching Assistant, APMA 1650 - Statistical Inference I (Instructor: Prof. Sarah Brauner).
-    </li>
-    <li>
-        Fall 2024 at Brown: Teaching Assistant, APMA 1210 - Operations Research: Deterministic Models (Instructor: Dr. Amalia V. Culiuc)
-    </li>
-    <li>
-        Spring 2022 at USTC: Teaching Assistant, Computational Methods B (Instructor: <a href="https://faculty.ustc.edu.cn/chenjingrun/en/index/601834/list/index.htm" title="Prof. Jingrun Chen's homepage">Prof. Jingrun Chen</a>)
-    </li>
-</ul>
-
-
-<h2>Professional Services</h2>
-
-<ul>
-    <li>
-        Reviewer for Journal of Computational Physics and Journal of Scientific Computing since 2025
-    </li>
-</ul>
-
-
-<h2>Professional Skills</h2>
-
-<ul>
-    <li>
-        Programming: MATLAB, C++, Fortran, Python, MPI, OpenMP
-    </li>
-    <li>
-        Software: LaTeX, Mathematica, <a href="https://ngsolve.org/">NGSolve</a>, <a href="https://fenicsproject.org/">FEniCS</a>, <a href="https://mfem.org/">MFEM</a>
-    </li>
-    <li>
-        Language: Mandarin Chinese, English
-    </li>
-</ul>
-
-
-<h2>Honors and Awards</h2>
-
-<ul>
-    <li>06/2024: New Lotus Award, SGY Rose Scholarship 2023</li>
-    <li>06/2023: USTC Outstanding Undergraduate Award</li>
-    <li>06/2023: "Chia-Chiao Lin" Gold Medal in Applied and Computational Math track (Top 1 in China) & Team Silver Medal & Excellence Prize in Analysis and PDEs track, the 14<sup>th</sup> S.-T. Yau College Student Math Contest</li>
-    <li>10/2022: Gold Prize, USTC Outstanding Student Scholarship</li>
-    <li>08/2022: Excellence Prize in Analysis and PDEs track, the 13<sup>th</sup> S.-T. Yau College Student Math Contest</li>
-    <li>12/2021: China National Scholarship</li>
-    <li>12/2021: Second Prize, the 13<sup>th</sup> Chinese Math Competitions</li>
-    <li>12/2020: China National Scholarship</li>
-    <li>09/2019: Third Prize, USTC Freshman Scholarship</li>
-</ul>
-
-
-<h2>Posters and Presentations</h2>
-
-<ul>
-    <li>
-        07/2024: <a href="files/poster/Yue_Wu_ICBS2024.pdf" title="ICBS2024 poster">Poster</a> session, the 2024 International Congress of Basic Science (ICBS), Beijing, China 
-    </li>
-</ul>
-
-</div>
-
-
-<hr>
-
-
-<div title="contact">
-<h2>Contact Information</h2>
-<div style="display: flex; gap: 24px;">
-    <div>
-        office address:
-        <pre>
+    <div title="contact">
+        <h2>Contact Information</h2>
+        <div style="display: flex; gap: 24px;">
+            <div>
+                office address:
+                <pre>
 Room 211, 170 Hope Street
 Providence, RI 02906, USA</pre>
-    </div>
-    <div>
-        mailing address:
-        <pre>
+            </div>
+            <div>
+                mailing address:
+                <pre>
 Division of Applied Mathematics
 Brown University, Box F
 182 George St
 Providence, RI 02912-9106, USA</pre>
+            </div>
+            <div>
+                ORCID: <a href="https://orcid.org/0009-0006-3898-8204">0009-0006-3898-8204</a> <br>
+                GitHub: <a href="https://github.com/YueWu2002">YueWu2002</a> <br>
+                Other links: <a href="https://www.researchgate.net/profile/Yue-Wu-226">ResearchGate</a>, <a href="https://arxiv.org/a/wu_y_17">arXiv</a>, <a href="https://scholar.google.com/citations?user=LEFHW44AAAAJ">Google Scholar</a>, <a href="https://www.linkedin.com/in/yue-wu-67740a263">LinkedIn</a>
+            </div>
+        </div>
     </div>
-    <div>
-        ORCID: <a href="https://orcid.org/0009-0006-3898-8204">0009-0006-3898-8204</a> <br>
-        GitHub: <a href="https://github.com/YueWu2002">YueWu2002</a> <br>
-        Other links: <a href="https://www.researchgate.net/profile/Yue-Wu-226">ResearchGate</a>, <a href="https://arxiv.org/a/wu_y_17">arXiv</a>, <a href="https://scholar.google.com/citations?user=LEFHW44AAAAJ">Google Scholar</a>, <a href="https://www.linkedin.com/in/yue-wu-67740a263">LinkedIn</a>
+
+    <hr>
+
+    <div title="misc">
+        <h2>Miscellaneous</h2>
+        <ul>
+            <li>
+                中国科大 数学分析B2 课程笔记（含作业题和历年期末试题解答）
+                <a href="files/undergrad-notes/calculus.pdf" title="中国科大 数学分析B2 课程笔记（含作业题和历年期末试题解答）">文件</a>
+            </li>
+            <li>
+                中国科大 微分方程I（现微分方程引论）课程笔记
+                <a href="files/undergrad-notes/note1.pdf" title="中国科大 微分方程I（现微分方程引论）课程笔记">文件</a>
+            </li>
+            <li>
+                中国科大 有限元方法 课程作业
+                <a href="files/FEM/HW1.pdf" title="中国科大 有限元方法 HW1">HW1</a> (一维线性单元)，
+                <a href="files/FEM/HW2.pdf" title="中国科大 有限元方法 HW2">HW2</a> (一维二次单元)，
+                <a href="files/FEM/HW3.pdf" title="中国科大 有限元方法 HW3">HW3</a> (一维纯Neumann边界)，
+                <a href="files/FEM/HW4.pdf" title="中国科大 有限元方法 HW4">HW4</a> (二维线性单元)，
+                <a href="files/FEM/HW5.pdf" title="中国科大 有限元方法 HW5">HW5</a> (二维二次单元)
+            </li>
+            <li>
+                有限差分 WENO 方法笔记
+                <a href="files/undergrad-notes/demo1.pdf" title="有限差分 WENO 方法笔记">文件</a>
+            </li>
+            <li>
+                布朗大学 APMA2560 偏微分方程数值解 II 大作业
+                <a href="files/APMA2560/report.pdf" title="布朗大学 APMA2560 偏微分方程数值解II 大作业">文件</a>
+            </li>
+            <li>
+                理想气体可压 Euler 方程精确黎曼求解器（支持真空）
+                <a href="https://github.com/YueWu2002/Euler_exact_Riemann" title="matlab 代码">matlab 代码</a>
+            </li>
+            <li>
+                可压 Euler 方程组 HLL/HLLC 数值通量优化实现
+                <a href="https://github.com/YueWu2002/Euler_HLL_flux" title="matlab 代码">matlab 代码</a>
+            </li>
+        </ul>
+        <a href="https://my.flightradar24.com/pilotjohnwu"><img src="https://banners-my.flightradar24.com/pilotjohnwu.png" alt="My Flightdiary.net profile" /></a>
     </div>
-</div>
-
-</div>
 
 
-<hr>
+    Last Updated: <span id="lastModified"></span>
+    <script>
+        document.getElementById("lastModified").textContent = document.lastModified;
+    </script>
 
+</body>
 
-<div title="misc">
-
-<h2>Miscellaneous</h2>
-
-<ul>
-    <li>
-        中国科大 数学分析B2 课程笔记（含作业题和历年期末试题解答）
-        <a href="files/undergrad-notes/calculus.pdf" title="中国科大 数学分析B2 课程笔记（含作业题和历年期末试题解答）">文件</a>
-    </li>
-    <li>
-        中国科大 微分方程I（现微分方程引论）课程笔记
-        <a href="files/undergrad-notes/note1.pdf" title="中国科大 微分方程I（现微分方程引论）课程笔记">文件</a>
-    </li>
-    <li>
-        中国科大 有限元方法 课程作业
-        <a href="files/FEM/HW1.pdf" title="中国科大 有限元方法 HW1">HW1</a> (一维线性单元)，
-        <a href="files/FEM/HW2.pdf" title="中国科大 有限元方法 HW2">HW2</a> (一维二次单元)，
-        <a href="files/FEM/HW3.pdf" title="中国科大 有限元方法 HW3">HW3</a> (一维纯Neumann边界)，
-        <a href="files/FEM/HW4.pdf" title="中国科大 有限元方法 HW4">HW4</a> (二维线性单元)，
-        <a href="files/FEM/HW5.pdf" title="中国科大 有限元方法 HW5">HW5</a> (二维二次单元)
-    </li>
-    <li>
-        有限差分 WENO 方法笔记
-        <a href="files/undergrad-notes/demo1.pdf" title="有限差分 WENO 方法笔记">文件</a>
-    </li>
-    <li>
-        布朗大学 APMA2560 偏微分方程数值解 II 大作业
-        <a href="files/APMA2560/report.pdf" title="布朗大学 APMA2560 偏微分方程数值解II 大作业">文件</a>
-    </li>
-    <li>
-        理想气体可压 Euler 方程精确黎曼求解器（支持真空）
-        <a href="https://github.com/YueWu2002/Euler_exact_Riemann" title="matlab 代码">matlab 代码</a>
-    </li>
-    <li>
-        可压 Euler 方程组 HLL/HLLC 数值通量优化实现
-        <a href="https://github.com/YueWu2002/Euler_HLL_flux" title="matlab 代码">matlab 代码</a>
-    </li>
-</ul>
-<a href="https://my.flightradar24.com/pilotjohnwu"><img src="https://banners-my.flightradar24.com/pilotjohnwu.png" alt="My Flightdiary.net profile" /></a>
-</div>
-
-
-Last Updated: <span id="lastModified"></span></p>
-<script>
-    document.getElementById("lastModified").textContent = document.lastModified;
-</script>
+</html>
