@@ -423,6 +423,32 @@
                 </ul>
             </li>
         </ul>
+        <p><img id="album-photo" src="files/album/DSC_2112.JPG" alt="A photo from Yue Wu's album" style="max-width: 100%; max-height: 300px;"></p>
+        <script>
+            // Static sites cannot list a directory in the browser; update this list when adding photos.
+            const albumPhotos = [
+                "DSC_2112.JPG",
+                "DSC_2543.JPG",
+                "DSC_2590.JPG",
+                "DSC_2921_1.JPG",
+                "DSC_4004.JPG",
+                "DSC_4043.JPG",
+                "DSC_4101_1.JPG",
+                "DSC_4250.JPG",
+                "DSC_8115.JPG",
+                "DSC_9362.JPG",
+                "DSC_9473.JPG",
+                "IMG_20240324_181132.jpg",
+                "IMG_4024.JPG",
+                "mmexport1711381340361.jpg",
+                "mmexport1711381517039.jpg",
+                "mmexport1711382967944.jpg",
+                "mmexport1711383305615.jpg",
+                "mmexport1743006434976.jpg",
+                "微信图片_20250213230647.jpg"
+            ];
+            document.getElementById("album-photo").src = "files/album/" + albumPhotos[Math.floor(Math.random() * albumPhotos.length)];
+        </script>
         <a href="https://my.flightradar24.com/pilotjohnwu"><img src="https://images.weserv.nl/?url=banners-my.flightradar24.com/pilotjohnwu.png" alt="My Flightdiary.net profile" /></a>
     </div>
 
